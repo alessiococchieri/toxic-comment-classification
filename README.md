@@ -17,7 +17,7 @@ For instance, if the comment is `toxic` and `obscene`, then for both those heade
 - Now that the competition has ended, the labels for the test set have been provided. This will enable us to conduct inference and assess the performance of each tested model.
 
 # Models
-I employed three distinct models to address the challenge:
+I employed three distinct models using TensorFlow to address the challenge:
 - **MODEL I**: a baseline approach that utilized a **Bidirectional Long Short-Term Memory (LSTM)** network with **embeddings trained from scratch**.
 - **MODEL II**: a variation of the baseline approach that incorporated **Glove's pre-trained embeddings** with the Bidirectional LSTM architecture.
 - **MODEL III**: the well-known **BERT model**, which is capable of producing state-of-the-art results on a range of NLP tasks including text classification.
