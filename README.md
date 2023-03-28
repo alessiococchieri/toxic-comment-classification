@@ -41,4 +41,5 @@ The table below summarizes the F1 scores of the tested models on the six labels 
 | Model II (Glove)   | 0.67  | 0.38         | 0.68    | 0.42   | 0.64   | 0.51          | 0.55         |
 | Model III (BERT)   | 0.67  | 0.42         | 0.70    | 0.59   | 0.70   | 0.62          | 0.62         |
 
+![Results](img/toxicity_results.png)
 
