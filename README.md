@@ -33,13 +33,20 @@ For the evaluation of my models in the Toxic Comment Challenge competition, I op
 
 # Results
 
-The table below summarizes the F1 scores of the tested models on the six labels associated with toxic comments, along with their F1 macro average.
+The table below summarizes the F1 scores of the tested models on the six labels associated with toxic comments, along with their F1 macro average. In addition, the graphical visualization provided by the plot allows for an easier comparison between the models' performances across different labels.
 
+<div align="center">
+  
 | Model Name         | toxic | severe_toxic | obscene | threat | insult | identity_hate | F1 macro avg |
 |--------------------|-------|--------------|---------|--------|--------|---------------|--------------|
 | Model I (Baseline) | 0.65  | 0.40         | 0.68    | 0.45   | 0.64   | 0.56          | 0.56         |
 | Model II (Glove)   | 0.67  | 0.38         | 0.68    | 0.42   | 0.64   | 0.51          | 0.55         |
 | Model III (BERT)   | 0.67  | 0.42         | 0.70    | 0.59   | 0.70   | 0.62          | 0.62         |
+  
+</div>
 
-![Results](img/toxicity_results.png)
+<p align="center">
+  <img src="img/toxicity_results.png" alt="F1 Score Performance by Label and Model" width="820"/>
+</p>
+
 
