@@ -1,5 +1,8 @@
-# Introduction
+# Toxic Comment Classification
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16sNt3a1PF9koVloJZdBsVSJSHiOHjjX7?usp=sharing)
 
+
+# Introduction
 The work carried out in this notebook focused on the [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) hosted on [Kaggle](https://www.kaggle.com/). The task consists of a **Multilabel text classification** problem where a given toxic comment, needs to be classified into one or more categories out of the following list:
 - `toxic`
 - `severe_toxic`
